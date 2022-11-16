@@ -1,0 +1,44 @@
+body {background-color: #081B2E;}
+a {text-decoration: none;}
+
+.section-heading{
+  padding: 2rem 0 1.5rem;
+  margin: 10rem 0 1.2rem;
+  text-align: center;
+  position: relative;
+  color: #FFF8F2;
+}
+
+.section-heading{
+  background-image: url("../images/background.gif");
+  background-size:cover;
+  color: #FFF8F2;
+}
+
+.section-description-left{
+  padding: 2rem 0 1.5rem;
+  margin : 10rem 0 10rem;
+  text-align: left;
+  color: #1C1B1B;
+}
+
+.section-contats{
+  padding: 2rem 0 1.5rem;
+  margin : 10rem 20rem 30rem;
+  color: #222;
+}
+
+.section-description-left{
+  background-color: #CCD6DB;  
+  color: ;
+}
+
+.text-center{
+  padding-top: 35%;
+}
+
+
+.showcase-img{
+  position: relative;
+  max-height: 100%;
+}

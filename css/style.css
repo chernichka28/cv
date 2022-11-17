@@ -1,19 +1,15 @@
 body {
-  margin-bottom:75px;
+  margin-bottom:65px;
   background-color: #081B2E
 }
 a {text-decoration: none;}
-table {
-    width: 650px;
-    margin: auto;
-   }
-td {text-align: center;}
-th {text-align: center;}
 
 .section-heading{
   padding: 2rem 0 1.5rem;
-  margin: 10rem 0 1.2rem;
+  margin: 15rem 0 5rem;
   text-align: center;
+  text-shadow: #A6A4A4 2px 1px 3px;
+  font-size: 2.5rem;
   position: relative;
   color: #FFF8F2;
 }
@@ -24,25 +20,25 @@ th {text-align: center;}
   color: #FFF8F2;
 }
 
-.section-description-left{
+.section-description{
   padding: 2rem 0 1.5rem;
-  margin : 10rem 0 10rem;
+  margin : 20rem 0 7rem;
   text-align: left;
-  color: #1C1B1B;
 }
 
 .section-contacts{
-  text-align: center;
+  font-size: 3rem;
   color: #F2F2F2;
 }
 
-.section-description-left{
+.section-description{
   background-color: #CCD6DB;  
-  color: ;
+  color: #1C1B1B;
 }
 
+
 .text-center{
-  padding-top: 35%;
+  padding-top: 30%;
 }
 
 .showcase-img{

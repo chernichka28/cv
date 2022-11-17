@@ -44,4 +44,5 @@ a {text-decoration: none;}
 .showcase-img{
   position: relative;
   max-height: 100%;
+  max-width: 120%;
 }

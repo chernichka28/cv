@@ -1,9 +1,9 @@
 body {
   margin-bottom:65px;
-  background-size:cover;
+  background-size: 150% 100%;
   background-image: url("https://i.gifer.com/8B7.gif");
   backdrop-filter: blur(3px);
-  background-position: top -210px left -450px;
+  background-position: top -280px left -50px;
 }
 a {text-decoration: none;}
 
@@ -30,6 +30,7 @@ a {text-decoration: none;}
 }
 
 .section-contacts{
+  text-align: center;
   font-size: 3rem;
   color: #F2F2F2;
 }

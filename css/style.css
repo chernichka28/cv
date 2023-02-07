@@ -1,14 +1,16 @@
+body {
+ background-image: url("../images/background.jpg");
+ background-size: cover;
+ backdrop-filter: blur(2px);
+ background-attachment: fixed;
+}
+
 a {
   text-decoration: none;
 }
 
 h3 {
   color: #FFF8F2;
-}
-
-.background {
-  min-height: 100vh;
-  backdrop-filter: blur(2px);
 }
 
 .section-heading{

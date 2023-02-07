@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Сurriculum vitae</title>
   
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
@@ -20,16 +21,16 @@
 </head>
 
 <body>
-  <div class="background pb-5" data-parallax="scroll" data-image-src="images/background.gif">
-    <section class="section-heading">
-      <div class="container">
+  <div class="background pb-5" data-parallax="scroll" data-image-src="images/background.jpg">
+    <section class="section-heading mb-sm-5 pb-sm-5">
+      <div class="container mb-sm-5 pb-sm-5">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/photo.jpg" alt="photo-1" class="showcase-img">
+            <img src="images/photo.jpg" alt="photo-1" class="mt-sm-5 showcase-img">
           </div>
           <div class="col-md-6">
             <h1 class="text-center">Adygezalov Dmitry</h1>
-            <p>Ruby On Rails Developer</p>
+            <p class="fs-4">Ruby On Rails Developer</p>
             <a href="mailto:dmitryadygezalov@gmail.com?subject=From CV" class="text-light text-decoration-none fa fa-envelope"></a>
             <a href="https://github.com/chernichka28" class="text-light text-decoration-none fa fa-github"></a>  
             <a href="https://t.me/Chernichka_28" class="text-light text-decoration-none fa fa-telegram"></a>
@@ -38,7 +39,54 @@
       </div>
     </section>
 
-    <section class="section-description fs-4">
+    <section class="section-description my-5 fs-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Skills</h3>
+            <ul>
+              <li>
+                <h3>Ruby</h3>
+                <p>I understand OOP principes, how important code style is </p>
+              </li>
+
+              <li>
+                <h3>Ruby on Rails</h3>
+                <p>I understand MVC pattern, worked with I18n, Active Record, Active Job with "Redis", Action Mailer with "MailJet" services, Action Cable (created a simple chat  ), know ho to test using Rspec</p>
+              </li>
+
+              <li>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, Bootstrap 5</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <h3>Technologies</h3><p> I know how to work with Git, GitHub</p>
+              </li>
+
+              <li>
+                <h3>Deploy</h3>
+                <p> VPS, Ubuntu, Nginx + Passenger, PostgresSQL. My projects are on a VPS that I set up myself. Worked with gem "Capistrano"</p>
+              </li>
+
+              <li>
+                <h3>Visual Basic</h3>
+              </li>
+
+              <li>
+                <h4>PascalABC.NET</h4>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <section class="section-description mt-5 fs-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -51,33 +99,11 @@
           </div>
 
           <div class="col-md-6">
-            <h3>Skills</h3>
-            <ul>
-              <li>Ruby</li>
-              <li>Ruby on Rails</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Visual Basic</li>
-              <li>PascalABC.NET</li>
-            </ul>
-          </div>
-        </div>  
-      </div>
-    </section>
-
-    <section class="section-description fs-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/education.jpg" alt="Education photo" class="showcase-img">
-          </div>
-
-          <div class="col-md-6">
             <h3>Education</h3>
             <ul>
              <li>Graduated with honors and gold medal from the Lyceum.</li>
              <li>Faculty of Innovation at BMSTU</li>
-             <li>Ruby on Rails Course by "GoodProgrammer"</li> 
+             <li>Ruby on Rails Course by <a href="https://goodprogrammer.ru/">"GoodProgrammer"</a></li> 
             </ul>
           </div>
         </div>  

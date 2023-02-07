@@ -1,7 +1,6 @@
 body {
  background-image: url("../images/background.jpg");
  background-size: cover;
- backdrop-filter: blur(2px);
  background-attachment: fixed;
 }
 
@@ -11,6 +10,10 @@ a {
 
 h3 {
   color: #FFF8F2;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .section-heading{
@@ -23,7 +26,6 @@ h3 {
   font-size: 2.5rem;
   color: #FFF8F2;
 }
-
 
 .section-description{
   background-size:cover;

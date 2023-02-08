@@ -6,12 +6,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Сurriculum vitae</title>
   
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
 </head>
@@ -26,11 +25,11 @@
           </div>
           <div class="col-md-6">
             <h1 class="text-center">Adygezalov Dmitry</h1>
-            <p class="fs-4">Young responsible and purposeful</p>
+            <p class="fs-4">Young, responsible and purposefulness</p>
             <p class="fs-4">Ruby On Rails Developer</p>
-            <a href="mailto:dmitryadygezalov@gmail.com?subject=From CV" class="text-light text-decoration-none fa fa-envelope mx-2"></a>
-            <a href="https://github.com/chernichka28" class="text-light text-decoration-none fa fa-github mx-2"></a>  
-            <a href="https://t.me/Chernichka_28" class="text-light text-decoration-none fa fa-telegram mx-2"></a>
+            <a href="mailto:dmitryadygezalov@gmail.com?subject=From CV" class="text-light text-decoration-none bi bi-envelope-at-fill mx-2"></a>
+            <a href="https://github.com/chernichka28" class="text-light text-decoration-none bi bi-github mx-2"></a>  
+            <a href="https://t.me/Chernichka_28" class="text-light text-decoration-none bi bi-telegram mx-2"></a>
           </div>
         </div>
       </div>
@@ -43,18 +42,19 @@
             <h2>Skills</h2>
             <ul>
               <li>
-                <h3>Ruby</h3>
-                <p>I understand OOP principes, how important code style is </p>
+                <h3>Ruby <i class="bi bi-gem"></i></h3>
+                <p>I understand and use OOP principes, how important code style is</p>
               </li>
 
               <li>
-                <h3>Ruby on Rails</h3>
-                <p>I understand MVC pattern, worked with I18n, Active Record, Active Job with "Redis", Action Mailer with "MailJet" services, Action Cable (created a simple chat  ), know how to test using Rspec</p>
-              </li>
-
-              <li>
-                <h3>Frontend</h3>
-                <p>HTML, CSS, Bootstrap 5</p>
+                <h3>Ruby on Rails <i class="bi bi-ladder"></i></h3>
+                <p>I understand and use MVC pattern</p>
+                <p>I18n - I work with localization and "rails-i18n" gem</p>
+                <p>Active Record - create migrations, validations, relationships, requests to database without N+1</p>
+                <p>Active Job - work with gem "Resque" with "Redis" database</p>
+                <p>Action Mailer - send email notification with "MailJet" services</p>
+                <p>Action Cable - created a simple chat</p> 
+                <p>Rspec - test using "FactoryBot" gem</p>
               </li>
             </ul>
           </div>
@@ -62,11 +62,20 @@
           <div class="col-md-6">
             <ul class="mt-sm-5">
               <li>
-                <h3>Technologies</h3><p> I know how to work with Git, GitHub</p>
+                <h3>Frontend <i class="bi bi-display"></i></h3>
+                <p>HTML, CSS, Bootstrap 5</p>
               </li>
 
               <li>
-                <h3>Deploy</h3>
+                <h3>Database <i class="bi bi-database-check"></i></h3><p>I work with basic database commands - SELECT, UPDATE, INSERT, DELETE, WHERE, GROUP BY, ORDER BY, JOIN</p>
+              </li>
+
+              <li>
+                <h3>Technologies <i class="bi bi-git"></i></h3><p>I work with Git, GitHub</p>
+              </li>
+
+              <li>
+                <h3>Deploy <i class="bi bi-upload"></i></h3>
                 <p> VPS, Ubuntu, Nginx + Passenger, PostgresSQL. My projects are on a VPS that I set up myself. Worked with gem "Capistrano"</p>
               </li>
 
@@ -87,7 +96,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3>My projects</h3>
+            <h3>My projects <i class="bi bi-journal-code"></i></h3>
             <ul>
               <li><a href="http://ask-me.borissoff.ru/">My version of ASKfm</a></li>
               <li><a href="http://bbq.borissoff.ru/">Event planner</a></li>
@@ -96,9 +105,9 @@
           </div>
 
           <div class="col-md-6">
-            <h3>Education</h3>
+            <h3>Education <i class="bi bi-mortarboard"></i></h3>
             <ul>
-             <li>Graduated with honors and gold medal from the physico-mathematical Lyceum.</li>
+             <li>Graduated with honors and gold medal from the physical and mathematical Lyceum</li>
              <li>Faculty of Innovation at BMSTU</li>
              <li>Ruby on Rails Course by <a href="https://goodprogrammer.ru/">"GoodProgrammer"</a></li> 
             </ul>
